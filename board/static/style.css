@@ -1,11 +1,13 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  }
+    }
   
   /* Navigation Bar */
   
   #home {
-    background-color:  #0032bc;
+    background-image: url("/static/images/nav_background.jpg");
+    background-size: cover;
+    background-color:  #000000;
     padding-bottom: 1cm;
     margin-left:-1cm;
     margin-right:-1cm;
@@ -17,7 +19,6 @@ body {
   
   .topmenu {
     color: lightgray;
-    background-image: url("/static/images/nav_background.jpg")
     margin: 10px;
     padding: 20px;
     font-size: 20px;
