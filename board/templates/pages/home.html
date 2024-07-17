@@ -1,11 +1,26 @@
 {% extends 'base.html' %}
 
 {% block header %}
-  <h2>{% block title %}Home{% endblock title %}</h2>
 {% endblock header %}
 
 {% block content %}
-  <p>
-    Learn more about this project by visiting the <a href="{{ url_for('pages.about') }}">About page</a>.
-  </p>
+   <section id="about-me" class="container">
+      <div>
+        <img src="/static/images/profile_pic.jpg" class="profile_image"
+            width="30"
+            height="50"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm James Higashiyama! <img src="/static/images/waving-hand.png" width="60px"/>
+          </h1>
+          <p>
+            I am an aspiring full stack developer with 1 year of experience in both application and presentation layers.
+            I have over 20 years of management and IT experience while serving in the United States Air Force.
+            I have worked on applications and microservices deployed on IBM Cloud as well as AWS and Google Cloud Platform. 
+            I am also an avid Pythonista and look forward to contributing to many open source Python applications!
+          </p>
+      </div>
+    </section>
 {% endblock content %}

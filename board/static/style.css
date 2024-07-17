@@ -17,6 +17,7 @@ body {
   
   .topmenu {
     color: lightgray;
+    background-image: url("/static/images/nav_background.jpg")
     margin: 10px;
     padding: 20px;
     font-size: 20px;
