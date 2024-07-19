@@ -1,55 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>James Higashiyama - Developer{% block title %}{% endblock title %}</title>
+  <title>{% block title %}James Higashiyama{% endblock title %}</title>
   </head>
 <body>
+
     {% include("_navigation.html") %}
+    {% block content %}{% endblock content %}
 </body>
-<!--
-    
-    <nav>
-      <div id="home">
-        <div class="profile_name">
-          James Higashiyama
-          <div class="contact_info">
-            <img src="/static/images/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
-          jhiggy@jeemail.com
-        </div>
-        <div style="clear:both;"></div>
-        <div class="contact_info">
-          <img src="/static/images/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
-          +1-800-867-5309
-
-        </div>
-        </div>
-        <div class="topdiv">
-          <a class="topmenu" href="#about-me">About Me</a>
-          <a class="topmenu" href="#skills">Skills</a>
-          <a class="topmenu" href="#projects">Projects</a>
-          <a class="topmenu" href="#recommendations">Recommendations</a>
-        </div>
-      </div>    
-    </nav>
-
-    <section id="about-me" class="container">
-      <div>
-        <img src="/static/images/profile_pic.jpg" class="profile_image"
-            width="30"
-            height="50"/>
-      </div>
-
-      <div>
-          <h1>
-            Hi, I'm James Higashiyama! <img src="/static/images/waving-hand.png" width="60px"/>
-          </h1>
-          <p>
-            I am a full stack developer with 2 years of experience in both application and presentation layers.
-            I have worked on applications and microservices deployed on IBM Cloud as well as AWS and Google Cloud Platform. 
-            I am an avid Pythonista and look forward to contributing to many open source Python applications!
-          </p>
-      </div>
-    </section>
+      
               
     <!-- Skills -->
 <!--
@@ -168,20 +127,5 @@
       </div>
     </section>
   </body>
-
-
-<!--
-<body>
-<h1>Message Board</h1>
-{% include("_navigation.html") %}
-<section>
-  <header>
-    {% block header %}{% endblock header %}
-  </header>
-  <main>
-    {% block content %}<p>No messages.</p>{% endblock content %}
-  </main>
-</section>
-</body>
 -->
 </html>
