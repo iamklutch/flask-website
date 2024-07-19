@@ -1,4 +1,5 @@
 body {
+    background-color: #b6cae0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
   
@@ -96,6 +97,7 @@ body {
   .about-me {
     display: flex;
     align-items: center;
+    
   }
   
   #about-me h1 {
