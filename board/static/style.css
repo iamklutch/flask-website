@@ -86,7 +86,8 @@ body {
     font-size: 50px;
     text-align: center;
     float: left;
-    color: #275e61;
+    /* color: #275e61; */
+    color: #4e632e;
     margin: 30px;
     margin-left: 60px;
     margin-top: 40px;
@@ -124,7 +125,7 @@ body {
     text-shadow: -5px -5px 5px #0000004D;
     font-size: 60px;
     margin-top: 60px;
-    color: #275e61;
+    color: #4e632e;
     text-align: center;
   }
   
@@ -167,7 +168,7 @@ body {
 
   #skills h3 {
     text-align: center;
-    color: #265e61;
+    color: #4e632e;
     font-size: 45px;
     text-shadow: -5px -5px 5px #0000004D;
   }
