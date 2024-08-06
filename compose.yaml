@@ -8,11 +8,17 @@
 # database or a cache. For examples, see the Awesome Compose repository:
 # https://github.com/docker/awesome-compose
 services:
-  server:
+  web:
     build:
       context: .
+    expose:
+      - 8000
+  nginx:
+    build: ./nginx
     ports:
-      - 8000:8000
+      - 1337:80
+    depends_on:
+      - web
 
 # The commented out section below is an example of how to define a PostgreSQL
 # database that your application can use. `depends_on` tells Docker Compose to
