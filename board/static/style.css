@@ -3,7 +3,6 @@
     src: url("/static/fonts/Nunito/Nunito-Regular.ttf");
 }
 body {
-   /*  background-color: #203a4f;*/
     background-image: linear-gradient(to right, #203a4f, #632e4e);
     font-family: 'Google_Fonts';
     }
@@ -13,7 +12,6 @@ body {
   #home {
     
     background-size: cover;
-    /* background-color:  #335d7e; */
     background-image: linear-gradient(to right, #203a4f, #632e4e);
     padding-bottom: 30px;
     margin-left:-1cm;
@@ -238,7 +236,7 @@ body {
   }
   
   .projects-container hr {
-    border: 1px solid lightgray;
+    border: 1px solid #808080;
     width: 75%;
     margin-left: 5cm;
   }

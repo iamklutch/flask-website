@@ -5,7 +5,34 @@
 {% endblock header %}
 
 {% block content %}
-  <p>
-    Learn more about this project by visiting the <a href="{{ url_for('pages.about') }}">About page</a>.
-  </p>
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Android Apps</h3>
+            <ul>
+              <li>Wrote and published 5 apps on the Google Play store, all of them written in Java and XML. Two used Firebase cloud storage.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>OmniHR PHP/Vue.JS Programmer</h3>
+            <ul>
+              <li>Worked for OmniHR debugging HR software written in PHP and Vue.JS.  Also added functionality and new features.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Project Euler Coder</h3>
+            <ul>
+              <li>Finished the first 17 problems on project Euler, using Python as my programming language of choice.</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
 {% endblock content %}
