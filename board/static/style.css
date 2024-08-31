@@ -213,6 +213,13 @@ body {
     color: #808080;
   }
   
+  /* Certification */
+
+  #itilcert img {
+    height: auto;
+    max-width: 100%;
+  }
+  
   /* Recommendations */
   
   .all_recommendations {
