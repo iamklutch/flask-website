@@ -11,6 +11,9 @@ def itilcert():
 @bp.route("/projects")
 def projects():
     return render_template("pages/projects.html")
+@bp.route("/wgudiploma")
+def wgudiploma():
+    return render_template("pages/wgudiploma.html")
 # @bp.route("/recommendations")
 # def recommendations():
 #     return render_template("pages/recommendations.html")
