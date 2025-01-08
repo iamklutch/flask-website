@@ -217,7 +217,7 @@ body {
 
   #itilcert img {
     height: auto;
-    max-width: 100%;
+    max-width: 75%;
   }
   
   /* Recommendations */
@@ -255,6 +255,13 @@ body {
 
   footer {
     display: block;
+    text-align: center;
+  }
+
+  footer hr {
+    border: 1px solid #808080;
+    width: 75%;
+    margin-left: 5cm;
   }
   /* Scroll to Top Button
   
