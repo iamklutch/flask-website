@@ -252,7 +252,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
   }
   
-  /* Scroll to Top Button */
+  /* Scroll to Top Button
   
   .iconbutton{
     width: 48px;
@@ -267,8 +267,8 @@ body {
     bottom: 3%;
     cursor: pointer;
   }
-  
-  /* Form Pop-up */
+  */
+  /* Form Pop-up 
   
   .popup {
     width:400px;
@@ -279,7 +279,6 @@ body {
     transform: translate(-50%,-50%);
     text-align: center;
     position: fixed;
-    /* padding: 30px; */
     visibility: hidden;
   }
   
@@ -311,8 +310,9 @@ body {
     cursor: pointer;
     margin-left: 25%;
   }
+  */
   
-  /* Recommendation Form */
+  /* Recommendation Form 
   
   input, textarea {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
@@ -330,8 +330,9 @@ body {
     border: thin solid white;
     width: 50%;
   }
-  
-  /* Buttons */
+  */
+
+  /* Buttons 
   
   button {
     background-color: #fff;
@@ -355,3 +356,4 @@ body {
     text-align: center;
     cursor: pointer;
   }
+  */
