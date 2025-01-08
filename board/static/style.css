@@ -258,12 +258,12 @@ body {
     display: block;
   }
 
-  footer p {
+  .bottomdiv {
     text-align: center;
     color: #4e632e;
   }
 
-  footer hr {
+  .bottomdiv hr {
     border: 1px solid #808080;
     width: 75%;
     margin-left: 5cm;
